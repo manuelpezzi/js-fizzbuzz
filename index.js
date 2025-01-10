@@ -16,11 +16,11 @@ Abbiamo visto qualcosa di particolare che possiamo usare?*/
 for (let i = 0; i < 100; i++) {
 
     if (i % 3 == 0 && i % 5 == 0) {
-        console.log("fizzBuzz")
+        console.log(`${i} "fizzBuzz"`)
     } else if (i % 5 == 0) {
-        console.log("Buzz")
+        console.log(`${i} "Buzz"`)
     } else if (i % 3 == 0) {
-        console.log("fizz")
+        console.log(`${i} "fizz"`)
     } else {
         console.log(i)
     }

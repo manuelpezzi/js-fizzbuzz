@@ -13,3 +13,11 @@ Abbiamo visto qualcosa di particolare che possiamo usare?*/
 4-stampare(consegna)
 */
 
+for (let i = 0; i < 100; i++) {
+
+    if (i % 3 == 0 && i % 5 == 0) {
+        console.log("frizzBuzz")
+    } if else (i % 5 == 0)
+
+
+}
